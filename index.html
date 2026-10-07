@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Mamy Hervé Rakotondratsimba - Informaticien, développement web et intelligence artificielle">
+    <meta name="keywords" content="portfolio, Mamy Hervé Rakotondratsimba, développeur web, informaticien, Madagascar">
+    <title>Mamy Hervé Rakotondratsimba | Portfolio</title>
+    
+    <!-- Font Awesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- Feuilles de style -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="scroll-progress"></div>
+    <!-- ==================== NAVIGATION ==================== -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <h1 class="logo">Mamy Hervé</h1>
+            </div>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Accueil</a></li>
+                <li><a href="#about" class="nav-link">À Propos</a></li>
+                <li><a href="#projects" class="nav-link">Projets</a></li>
+                <li><a href="#skills" class="nav-link">Compétences</a></li>
+                <li><a href="#experience" class="nav-link">Expérience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <div class="hamburger" id="hamburger" role="button" tabindex="0" aria-label="Ouvrir le menu de navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <button class="theme-toggle" id="themeToggle" aria-label="Activer le thème sombre">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ==================== SECTION HÉROS ==================== -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">Bonjour, je suis Mamy Hervé <span class="highlight">Informaticien — Web & IA</span></h2>
+                <p class="hero-subtitle">Développement web moderne et solutions enrichies par l'intelligence artificielle</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+                    <a href="#contact" class="btn btn-secondary">Me contacter</a>
+                </div>
+                <div class="hero-scroll">
+                    <span>Scroll pour explorer</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-placeholder">
+                    <img class="profile-img" src="profil.png" alt="Photo de profil de Mamy Hervé Rakotondratsimba" loading="eager">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SECTION À PROPOS ==================== -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">À Propos de Moi</h2>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-placeholder-about">
+                        <img class="profile-img" src="biographie.png" alt="Mamy Hervé Rakotondratsimba dans son espace de travail" loading="lazy">
+                    </div>
+                </div>
+                
+                <div class="about-text">
+                    <h3>Qui suis-je?</h3>
+                    <p>Je me nomme RAKOTONDRATSIMBA Mamy Hervé, je suis né en 2007 à Ampasikely d'Amparafaravola, région Tamatave. J'ai obtenu mon diplôme du baccalauréat en 2024, ainsi que mes certificats en langue Française et en Informatique bureautique en 2025. J'ai 20 ans et je suis étudiant en Informatique à l'Université Privé Hay (UPH) d'Antananarivo.</p>
+                    
+                    <p>Passionné par le développement web et les technologies d'intelligence artificielle, je conçois des sites et applications web modernes, performants et centrés sur l'utilisateur. Ma double expertise en développement full-stack et en IA me permet de créer des solutions qui allient design soigné, performance technique et intelligence intégrée. Jeune motivé, proactif, curieux et rigoureux, j'aime transformer des besoins concrets en outils numériques efficaces — du site vitrine à l'application web complexe enrichie par l'IA.</p>
+                    
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h4 data-target="2" data-suffix="+">0</h4>
+                            <p>Projets Réalisés</p>
+                        </div>
+                        <div class="stat">
+                            <h4 data-target="2" data-suffix="">0</h4>
+                            <p>Certifications</p>
+                        </div>
+                        <div class="stat">
+                            <h4 data-target="3" data-suffix="">0</h4>
+                            <p>Langues Parlées</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SECTION COMPÉTENCES ==================== -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Compétences</h2>
+            
+            <div class="skills-container">
+                <!-- Frontend -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Frontend</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>HTML/CSS</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>JavaScript</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>React/Vue</span>
+                                <span>25%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 25%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Responsive Design</span>
+                                <span>45%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 45%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Backend -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Backend</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Node.js</span>
+                                <span>55%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 55%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Python</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>MongoDB</span>
+                                <span>15%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 15%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>MySQL</span>
+                                <span>08%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 08%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Design & Tools -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-palette"></i> Design & Tools</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Figma</span>
+                                <span>05%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 05%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>Git/GitHub</span>
+                                <span>20%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 20%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>SEO</span>
+                                <span>04%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 04%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span>WordPress</span>
+                                <span>20%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 20%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SECTION PROJETS ==================== -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Mes Projets</h2>
+            
+            <!-- Filtres -->
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+            </div>
+            
+            <!-- Grille de projets -->
+            <div class="projects-grid">
+                <!-- Projet 1 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-store"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://digital26.mamyherver.workers.dev/" class="view-btn" data-project="1" target="_blank" rel="noopener">
+                                <i class="fas fa-eye"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>DigitalStore</h3>
+                        <p>Boutique en ligne de produits numériques destinée aux utilisateurs à Madagascar : ebooks, templates Canva / PowerPoint / Excel, formations vidéo, logiciels et musiques. Les clients consultent les produits puis contactent directement le vendeur par téléphone ou WhatsApp pour acheter.</p>
+                        <div class="project-tags">
+                            <span class="tag">Projet de groupe</span>
+                            <span class="tag">E-commerce</span>
+                            <span class="tag">HTML/CSS</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Projet 2 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="https://portfolio-de-mamy-herv.mamyherver.workers.dev/" class="view-btn" data-project="2" target="_blank" rel="noopener">
+                                <i class="fas fa-eye"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Portfolio Personnel</h3>
+                        <p>Site portfolio présentant mon parcours, mes compétences en développement frontend/backend et mes différents projets, mettant en avant HTML/CSS, JavaScript, Python, Node.js, React/Vue et Git/GitHub.</p>
+                        <div class="project-tags">
+                            <span class="tag">Projet personnel</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Design responsive</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SECTION EXPÉRIENCE ==================== -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Expérience Professionnelle</h2>
+            
+            <div class="timeline">
+                <!-- Expérience 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Développement de projet digital</h3>
+                        <p class="timeline-company">DigitalStore — projet de groupe</p>
+                        <p class="timeline-date">Université UPH</p>
+                        <ul class="timeline-description">
+                            <li>Boutique en ligne de produits numériques destinée aux utilisateurs à Madagascar</li>
+                            <li>Ebooks, templates Canva/PowerPoint/Excel, formations vidéo, logiciels et musiques à prix en ariary</li>
+                            <li>Mise en relation des clients avec le vendeur par téléphone ou WhatsApp</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Expérience 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Chargé de projet — Site Portfolio</h3>
+                        <p class="timeline-company">Projet personnel</p>
+                        <p class="timeline-date">2025 - Présent</p>
+                        <ul class="timeline-description">
+                            <li>Conception d'un portfolio présentant mon parcours et mes compétences</li>
+                            <li>Mise en avant du HTML/CSS, JavaScript, Python, Node.js, React/Vue et Git/GitHub</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Expérience 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Mécanique auto</h3>
+                        <p class="timeline-company">Garage Vitsy, Ambatobe d'Antananarivo</p>
+                        <p class="timeline-date">Travail</p>
+                        <ul class="timeline-description">
+                            <li>Mécanique générale (moteur diesel et essence)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SECTION TESTIMONIES ==================== -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Témoignages</h2>
+            
+            <div class="testimonials-slider">
+                <!-- Témoignage 1 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Excellent travail! Le site est magnifique et les performances sont incroyables. Je recommande vivement!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div>
+                            <h4>Jean Dupont</h4>
+                            <p>PDG, Entreprise ABC</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Témoignage 2 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Professionnel, créatif et à l'écoute. Exactement ce que je cherchais pour mon projet."</p>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div>
+                            <h4>Marie Martin</h4>
+                            <p>Directrice Marketing, StartUp XYZ</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Témoignage 3 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Livraison à temps, communication claire et résultats au-delà des attentes!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                        <div>
+                            <h4>Pierre Bernard</h4>
+                            <p>Fondateur, Agence Web 123</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slider-controls">
+                <button class="slider-btn prev" id="prevBtn" aria-label="Témoignage précédent"><i class="fas fa-chevron-left"></i></button>
+                <div class="slider-dots" id="sliderDots"></div>
+                <button class="slider-btn next" id="nextBtn" aria-label="Témoignage suivant"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SECTION CONTACT ==================== -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Me Contacter</h2>
+            
+            <div class="contact-wrapper">
+                <!-- Infos de contact -->
+                <div class="contact-info">
+                    <h3>Parlons de votre projet!</h3>
+                    <p>Vous avez une idée de projet? N'hésitez pas à me contacter.</p>
+                    
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:mamyherver@gmail.com">mamyherver@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Téléphone</h4>
+                                <a href="tel:+261388517134">+261 38 85 171 34</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Localisation</h4>
+                                <p>Ambatobe, Antananarivo, Madagascar</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="http://www.linkedin.com/in/mamy-hervé-rakotondratsimba-3ab45a424" title="LinkedIn" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Mamy-creator-ux" title="GitHub" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+                        <a href="https://x.com/mamy15188" title="X (Twitter)" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Formulaire de contact -->
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Votre nom" required id="name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" placeholder="Votre email" required id="email">
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="text" placeholder="Sujet" required id="subject">
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea placeholder="Votre message" rows="5" required id="message"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Envoyer le message</button>
+                    
+                    <div class="form-message" id="formMessage"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== PIED DE PAGE ==================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Mamy Hervé</h3>
+                    <p>Informaticien — Développement Web & Intelligence Artificielle</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Liens rapides</h4>
+                    <ul>
+                        <li><a href="#home">Accueil</a></li>
+                        <li><a href="#projects">Projets</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Suivez-moi</h4>
+                    <div class="footer-socials">
+                        <a href="https://github.com/Mamy-creator-ux" target="_blank" rel="noopener" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="http://www.linkedin.com/in/mamy-hervé-rakotondratsimba-3ab45a424" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://x.com/mamy15188" target="_blank" rel="noopener" title="X (Twitter)"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear">2026</span> Mamy Hervé Rakotondratsimba. Tous droits réservés.</p>
+                <button class="scroll-top" id="scrollTop" aria-label="Retour en haut de page">
+                    <i class="fas fa-arrow-up"></i>
+                </button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== MODALE PROJET ==================== -->
+    <div class="project-modal" id="projectModal" aria-hidden="true">
+        <div class="project-modal-overlay" id="projectModalOverlay"></div>
+        <div class="project-modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <button class="project-modal-close" id="projectModalClose" aria-label="Fermer">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="project-modal-icon" id="modalIcon"></div>
+            <h3 id="modalTitle"></h3>
+            <p id="modalDescription"></p>
+            <div class="project-tags" id="modalTags"></div>
+        </div>
+    </div>
+
+    <!-- ==================== SCRIPTS ==================== -->
+    <script src="script.js"></script>
+</body>
+</html>
